@@ -1,67 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Programs | Veritas International Campus</title>
-    <link rel="stylesheet" href="assets/css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Programs | Veritas International Campus</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 </head>
 <body>
 
-    <header class="site-header">
-        <div class="header-inner">
-            <div class="logo-container">
-                <img src="assets/images/Banner.jpg" alt="Veritas Logo" class="logo">
+  <header class="site-header">
+        <div class="container">
+            <div class="header-inner">
+                <div class="logo-container">
+                    
+                        <img src="assets/images/Banner.jpg" alt="Veritas International Campus Logo" class="logo">
+                    
+                </div>
+                <div class="header-text">
+                    
+                        <h1>Veritas International Campus</h1>
+                    
+                    <p>Shaping Tomorrow’s Leaders Today</p>
+                </div>
+                <button id="menu-toggle" class="menu-toggle" aria-label="Toggle navigation">
+                    <i class="fas fa-bars"></i>
+                </button>
             </div>
-            <div class="header-text">
-                <h1>Veritas International Campus</h1>
-                <p>Shaping Tomorrow’s Leaders Today</p>
-            </div>
+            <nav class="navbar" id="navbar">
+                <ul class="nav-links" id="nav-links">
+                  <li><a href="index.html" >Home</a></li>
+                  <li><a href="about.html" >About Us</a></li>
+                  <li><a href="programs.html" class="active">Programs</a></li>
+                  <li><a href="register.html">Register</a></li>
+                  <li><a href="contact.html" >Contact Us</a></li>
+                  <li><a href="../Veritas Campus/html/why.html">Why Choose Us</a></li>
+                  <li><a href="../Veritas Campus/html/campus.html">Campus Life</a></li>
+                  <li><a href="../Veritas Campus/html/team.html">Our Team</a></li>
+                  <li><a href="../Veritas Campus/html/ourPartners.html">Our Partners</a></li>
+                </ul>
+            </nav>
         </div>
     </header>
 
-    <nav class="navbar">
-        <div class="menu-toggle" id="menu-toggle">☰ Menu</div>
-        <div class="nav-links" id="nav-links">
-            <a href="index.html">Home</a>
-            <a href="about.html">About Us</a>
-            <a href="programs.html" class="active">Programs</a>
-            <a href="register.html">Register</a>
-            <a href="contact.html">Contact Us</a>
-        </div>
-    </nav>
+  <main class="main">
 
-    <div class="main">
-        <h2>Academic Programs</h2>
-        <div class="programs-container">
-            <!-- Card for each diploma -->
-            <div class="program-card">
-                <img src="assets/images/Banner.jpg" alt="Veritas Logo" class="logo">
-                <h3>Diploma in HR</h3>
-                <p>Enhance your career with a solid foundation in Human Resources management.</p>
-            </div>
-            <div class="program-card">
-                <img src="assets/images/Banner.jpg" alt="Veritas Logo" class="logo">
-                <h3>Diploma in Business Management</h3>
-                <p>Develop the skills to lead and manage businesses effectively.</p>
-            </div>
-            <div class="program-card">
-                <img src="assets/images/Banner.jpg" alt="Veritas Logo" class="logo">
-                <h3>Diploma in Marketing</h3>
-                <p>Learn strategies for effective marketing in the modern business environment.</p>
-            </div>
-            <div class="program-card">
-                <img src="assets/images/Banner.jpg" alt="Veritas Logo" class="logo">
-                <h3>Diploma in Technology</h3>
-                <p>Gain technical expertise to drive innovation in the tech industry.</p>
-            </div>
+    
+
+    <section class="content-section container">
+      <h2>Academic Programs</h2>
+
+      <div class="programs-overview">
+        <p class="programs-description"> <strong>Veritas International Campus offers a
+          wide array of academic programs
+          designed to suit various interests and
+          career paths. Our curriculum is both
+          comprehensive and flexible, ensuring
+          that each student receives the
+          necessary foundation to excel in their
+          field.</strong></p>
+      
+        <p class="programs-list">
+          ✅ Undergraduate Programs in Business, Marketing, Technology, and more</br>
+          ✅ Professional Diplomas in HR, Business Management, and Marketing</br>
+          ✅ Workshops and Skill Development Programs focusing on real world skills</br>
+          ✅ Internships and Placement Opportunities to enhance career prospect</br>
+        </p>
+      </div>
+      <div class="programs-container">
+        <div class="program-card">
+          <img src="assets/images/Banner.jpg" alt="Diploma in HR" class="program-image">
+          <h3>Diploma in HR</h3>
+          <p>Enhance your career with a solid foundation in Human Resources management.</p>
+          <a href="register.html" class="btn">Apply Now</a>
         </div>
+        <div class="program-card">
+          <img src="assets/images/Banner.jpg" alt="Diploma in Business Management" class="program-image">
+          <h3>Diploma in Business Management</h3>
+          <p>Develop the skills to lead and manage businesses effectively.</p>
+          <a href="register.html" class="btn">Apply Now</a>
+        </div>
+        <div class="program-card">
+          <img src="assets/images/Banner.jpg" alt="Diploma in Marketing" class="program-image">
+          <h3>Diploma in Marketing</h3>
+          <p>Learn strategies for effective marketing in the modern business environment.</p>
+          <a href="register.html" class="btn">Apply Now</a>
+        </div>
+        <div class="program-card">
+          <img src="assets/images/Banner.jpg" alt="Diploma in Technology" class="program-image">
+          <h3>Diploma in Technology</h3>
+          <p>Gain technical expertise to drive innovation in the tech industry.</p>
+          <a href="register.html" class="btn">Apply Now</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2025 Veritas International Campus. All rights reserved.</p>
     </div>
+  </footer>
 
-    <footer>
-        <p>&copy; 2025 Veritas International Campus</p>
-    </footer>
-
-    <script src="assets/js/script.js"></script>
+  <script src="assets/js/script.js"></script>
 </body>
 </html>

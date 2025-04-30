@@ -1,54 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us | Veritas International Campus</title>
-    <link rel="stylesheet" href="assets/css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us | Veritas International Campus</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 </head>
 <body>
-
     <header class="site-header">
-        <div class="header-inner">
-            <div class="logo-container">
-                <img src="assets/images/Banner.jpg" alt="Veritas Logo" class="logo">
+        <div class="container">
+            <div class="header-inner">
+                <div class="logo-container">
+                    
+                        <img src="assets/images/Banner.jpg" alt="Veritas International Campus Logo" class="logo">
+                    
+                </div>
+                <div class="header-text">
+                    
+                        <h1>Veritas International Campus</h1>
+                    
+                    <p>Shaping Tomorrow’s Leaders Today</p>
+                </div>
+                <button id="menu-toggle" class="menu-toggle" aria-label="Toggle navigation">
+                    <i class="fas fa-bars"></i>
+                </button>
             </div>
-            <div class="header-text">
-                <h1>Veritas International Campus</h1>
-                <p>Shaping Tomorrow’s Leaders Today</p>
-            </div>
+            <nav class="navbar" id="navbar">
+                <ul class="nav-links" id="nav-links">
+                  <li><a href="index.html" >Home</a></li>
+                  <li><a href="about.html" >About Us</a></li>
+                  <li><a href="programs.html">Programs</a></li>
+                  <li><a href="register.html">Register</a></li>
+                  <li><a href="contact.html" class="active">Contact Us</a></li>
+                  <li><a href="../Veritas Campus/html/why.html">Why Choose Us</a></li>
+                  <li><a href="../Veritas Campus/html/campus.html">Campus Life</a></li>
+                  <li><a href="../Veritas Campus/html/team.html">Our Team</a></li>
+                  <li><a href="../Veritas Campus/html/ourPartners.html">Our Partners</a></li>
+                </ul>
+            </nav>
         </div>
     </header>
-    
 
-<nav class="navbar">
-    <div class="menu-toggle" id="menu-toggle">☰ Menu</div>
-    <div class="nav-links" id="nav-links">
-        <a href="index.html">Home</a>
-        <a href="about.html">About Us</a>
-        <a href="programs.html">Programs</a>
-        <a href="register.html">Register</a>
-        <a href="contact.html" class="active">Contact Us</a>
-    </div>
-</nav>
-
-<main class="main">
-    <img src="assets/images/ContactUS/cONTACT uS.jpg" alt="Contact" class="responsive-image">
-
-    <section class="content-section">
-        <h2>Contact Information</h2>
-        <div class="contact-details">
-            <p><strong>Phone:</strong> 0777897901 / 0774795371</p>
-            <p><strong>Email:</strong> info.veritascampus@gmail.com</p>
-            <p><strong>Location:</strong> Panadura, Sri Lanka</p>
-        </div>
+  <main class="main">
+    <section class="hero">
+      <img src="assets/images/ContactUS/cONTACT uS.jpg" alt="Contact Us" class="hero-image">
+      <div class="hero-overlay">
+        <h2>Contact Us</h2>
+      </div>
     </section>
-</main>
+    <section class="content-section container">
+      <h2>Get in Touch</h2>
+      <div class="contact-details">
+        <p><i class="fas fa-phone"></i> <strong>Phone:</strong> +94 77 789 7901 / +94 77 479 5371</p>
+        <p><i class="fas fa-envelope"></i> <strong>Email:</strong> <a href="mailto:info.veritascampus@gmail.com">info.veritascampus@gmail.com</a></p>
+        <p><i class="fas fa-map-marker-alt"></i> <strong>Location:</strong> Panadura, Sri Lanka</p>
+      </div>
+    </section>
+  </main>
 
-<footer>
-    <p>&copy; 2025 Veritas International Campus</p>
-</footer>
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2025 Veritas International Campus. All rights reserved.</p>
+    </div>
+  </footer>
 
-<script src="assets/js/script.js"></script>
+  <script src="assets/js/script.js"></script>
 </body>
 </html>
